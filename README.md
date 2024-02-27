@@ -48,35 +48,25 @@ Anaconda - Python 3.7
 
 ### OUTPUT:
 
- <img src="![Screenshot 2024-02-27 110739](https://github.com/Manojrathinavelu/COLOR_CONVERSIONS_OF-IMAGE/assets/119560395/5db26a48-419a-4f1d-867b-ff8d3537ed82)">
-
-  </td>
-  </tr>
-
-   <tr>
-    <td width=50%>
 
 ### ii)Write the image
 ```Python
     import cv2
     image=cv2.imread('dip1.jpg',0)
+
     cv2.imwrite('demos.jpg',image)
 ```
   </td>
   <td>
 
 ### OUTPUT:
-
-<img src="https://github.com/Naveen22009215/COLOR_CONVERSIONS_OF-IMAGE/assets/119401470/da85973f-9922-427d-b74e-29262f90aea2">
-  </td>
-  </tr>
-  <tr>
-    <td width=50%>
+![Screenshot 2024-02-27 110739](https://github.com/Manojrathinavelu/COLOR_CONVERSIONS_OF-IMAGE/assets/119560395/80a61ab7-9157-497c-b2b8-2f4ad6df9bdc)
 
 ### iii)Shape of the Image
 ```Python
     import cv2
     image=cv2.imread('dip1.jpg',1)
+
     print(image.shape)
 ```
   </td>
